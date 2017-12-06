@@ -1,0 +1,46 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+body{
+	background: url(../images/pizza.jpg) ;
+	background-attachment: fixed;
+}
+nav.navbar-default {
+	background: none;
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	font-size: 20px;
+	text-shadow: 2px #777;
+}
+navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+h2{
+	color: white;
+}
+main{
+	height: 100vh;
+}
+
+#myform{
+	align-items: center;
+}
+label{
+	color: white;
+}
+nav{
+	position: fixed;
+	height: 250px;
+}
+.panel-default{
+	opacity: .8;
+	align-items: center;
+	color: black;
+}
+.infos{
+	margin-top: 340px;
+}
