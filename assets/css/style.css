@@ -32,10 +32,6 @@ h2{
 label{
 	color: white;
 }
-nav{
-	position: fixed;
-	height: 250px;
-}
 .panel-default{
 	opacity: .8;
 	align-items: center;
@@ -52,23 +48,80 @@ nav{
 }
 
 .resto1{
-	margin: 150px /*50px 0px 50px*/;
-	background-color: red;
+	margin: 150px;
+	padding-bottom: 50px;
+	background-color: #191613;
 	color: white;
-	height: 375px;
+	height: 500px;
+	opacity: .9;
+	border-radius: 5px;
 }
 
 .restoB img {
-width: 50%;
+width: 100%;
 }
 
-.restoW img{
-	width: 750px;
-}
 .carteB{
-	background-color: green;
 	height: 100%;
 }
 .carteB iframe{
+	height: 75%;
+}
+
+
+.restoW img {
+width: 100%;
+}
+
+.carteW{
 	height: 100%;
+}
+.carteW iframe{
+	height: 75%;
+}
+.contact{
+	margin: 150px;
+	padding-bottom: 50px;
+	background-color: #191613;
+	color: white;
+	height: 300px;
+	opacity: .9;
+	border-radius: 5px;
+}
+textarea{
+	width: 250px;
+	height: 200px;
+}
+
+.bouton{
+	display: block;
+	width: 150px;
+	background-color: red;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+	margin-left: 40%;
+	margin-top: 20px;
+}
+.bouton a{
+	color: white;
+}
+form{
+	text-align: center;
+}
+.photo{
+	width: 1100px;
+	margin-top: 150px;
+	margin-left: 100px;
+	padding-bottom: 50px;
+	background-color: #191613;
+	color: white;
+	height: 400px;
+	opacity: .9;
+	border-radius: 5px;
+	text-align: center;
+}
+.photo img{
+	width: 300px;
+	padding-top: 50px;
 }

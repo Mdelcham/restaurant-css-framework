@@ -8,31 +8,35 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="icon" type="image/png" href="assets/images/logo.png" />
 </head>
-<nav class="navbar navbar-default">
-	<ul class="nav navbar-nav">
-		<li><img src="assets/images/logo.png" alt="logo entreprise"></li>
-		<li><a href="index.html">Accueil</a></li>
-		<li><a href="carte.html">Carte</a></li>
-		<li><a href="photos.html">Photos</a></li>
-		<li><a href="resto.html">Restaurants</a></li>
-		<li><a href="contact.html">Contact</a></li>
-	</ul>
-</nav>
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<ul class="nav navbar-nav">
+			<li><img src="assets/images/logo.png" alt="logo entreprise"></li>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="carte.html">Carte</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="resto.html">Restaurants</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
 <body>
-	<form id="myform" class="cssform" action="">
+	<form method="post" action="" class="contact">
+   		<p>
+   			<label>Nom:</label><input type="text"/>
+   		</p>
 		<p>
-			<label for="user">Nom :</label>
-			<input type="text" id="user" value=""/>
-		</p>
-		<p>
-			<label for="emailaddress">Email :</label>
-			<input type="text" id="emailaddress" value=""/>
-		</p>
-
-		<p>
-			<label for="comments">Message :</label>
-			<textarea id="comments" rows="5" cols="25"></textarea>
-		</p>
-
+   			<label>E-mail:</label><input type="text" name="pseudo" />
+   		</p> 
+   		<p>
+       		<label for="ameliorer">Votre avis:</label>
+       		<textarea name="ameliorer" id="ameliorer"></textarea>
+   		</p>
+   		<div class="bouton">
+  			<p>
+   				<a href="#">Bouton</a>
+ 			</p>
+		</div>
+	</form>
 </body>
 </html>
