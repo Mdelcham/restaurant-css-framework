@@ -5,7 +5,7 @@ body{
 	background: url(../images/pizza.jpg) ;
 	background-attachment: fixed;
 }
-nav.navbar-default {
+nav.navbar-default.navbar-fixed-top {
 	background: none;
 	border: none;
 }
@@ -22,9 +22,9 @@ navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 h2{
 	color: white;
 }
-main{
+/*main{
 	height: 100vh;
-}
+}*/
 
 #myform{
 	align-items: center;
@@ -39,8 +39,36 @@ nav{
 .panel-default{
 	opacity: .8;
 	align-items: center;
-	color: black;
 }
 .infos{
 	margin-top: 340px;
+}
+.panel{
+	border: none;
+}
+.panel-body{
+	background-color: #191613;
+	color: white;
+}
+
+.resto1{
+	margin: 150px /*50px 0px 50px*/;
+	background-color: red;
+	color: white;
+	height: 375px;
+}
+
+.restoB img {
+width: 50%;
+}
+
+.restoW img{
+	width: 750px;
+}
+.carteB{
+	background-color: green;
+	height: 100%;
+}
+.carteB iframe{
+	height: 100%;
 }
