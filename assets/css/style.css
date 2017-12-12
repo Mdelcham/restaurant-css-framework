@@ -21,10 +21,8 @@ navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 h2{
 	color: white;
+	text-shadow: 0px 1px white;
 }
-/*main{
-	height: 100vh;
-}*/
 
 #myform{
 	align-items: center;
@@ -52,7 +50,7 @@ label{
 	padding-bottom: 50px;
 	background-color: #191613;
 	color: white;
-	height: 500px;
+	height: 450px;
 	opacity: .9;
 	border-radius: 5px;
 }
@@ -65,10 +63,12 @@ width: 100%;
 	height: 100%;
 }
 .carteB iframe{
-	height: 75%;
+	height: 80%;
 }
 
-
+.restoW{
+	margin-bottom: 50px;
+}
 .restoW img {
 width: 100%;
 }
@@ -123,5 +123,24 @@ form{
 }
 .photo img{
 	width: 300px;
-	padding-top: 50px;
+	border: 2px solid white;
+	margin-top: 50px;
+}
+.list-group{
+	margin: 100px 150px 50px 150px;
+	opacity: .9;
+	border-radius: 5px;
+}
+
+.badge{
+	background-color: #AA2A32;
+}
+
+.R1{
+	width: 50px;
+	margin-left: 500px;
+	margin-right: 10px;
+}
+.R2{
+	width: 50px;
 }
