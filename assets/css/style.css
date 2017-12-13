@@ -66,6 +66,7 @@ width: 100%;
 }
 .carteB iframe{
 	height: 400px;
+	max-width: 100%;
 }
 
 .restoW{
