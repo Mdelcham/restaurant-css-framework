@@ -9,6 +9,7 @@ body{
 }
 h2{
 	color: white;
+
 }
 .container{
 	margin-left: 0px;
@@ -32,13 +33,13 @@ h2{
 
 .panel-default{
 	opacity: .8;
-	align-items: center;
 }
 .infos{
-	margin: 250px 50px 0px 50px;
+	margin: 0px 50px 0px 50px;
 }
 .panel{
 	border: none;
+	background-color: transparent;
 
 }
 .panel-body{
@@ -109,6 +110,8 @@ textarea{
 .bouton a{
 	color: white;
 }
+
+
 form{
 	text-align: center;
 }
@@ -149,4 +152,18 @@ li .list-group-item{
 .photo img:hover{
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
+}
+
+.logo{
+	margin-right: 10px;
+}
+h1{
+	text-align: center;
+	margin-top: 150px;
+	color: white;
+	font-family: 'Pacifico', cursive;
+}
+
+.formulaire{
+	margin-left: 40%;
 }
